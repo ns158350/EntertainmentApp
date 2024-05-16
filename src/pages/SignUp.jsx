@@ -23,7 +23,7 @@ export default function SignUp() {
 
     try {
       // Send POST request to sign up endpoint
-      await axios.post(`https://entertainmentapp-1.onrender.com/SignUp`, {
+      await axios.post(`https://entertainmentapp-gcxr.onrender.com/SignUp`, {
         name, email, password
       })
         .then(res => {

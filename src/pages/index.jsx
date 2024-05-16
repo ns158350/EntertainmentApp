@@ -23,7 +23,7 @@ export default function Login() {
 
     try {
       // Send POST request to login endpoint
-      await axios.post("https://entertainmentapp-1.onrender.com/", {
+      await axios.post("https://entertainmentapp-gcxr.onrender.com/", {
         email, password
       })
         .then(res => {
