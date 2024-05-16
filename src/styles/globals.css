@@ -1,0 +1,154 @@
+/*********************************************Navbar *******************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-div{
+  padding-top: 65px;
+}
+
+.navlinks {
+  margin-left: auto;
+}
+
+.nav h3 {
+  color: black;
+}
+
+.nav {
+  border: 2px solid grey;
+  background-color: rgb(50, 101, 177);
+  box-shadow: 6px 3px 20px rgb(255, 255, 255);
+  
+}
+/*********************************************Navbar *******************************************/
+
+/*********************************************Home Page *******************************************/
+.section-div{
+  overflow-x: auto;
+  display: flex; 
+  white-space: nowrap;
+  width: 98vw;
+  height: 360px;
+  scrollbar-width: none; /* Firefox */ 
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.content-div{
+  flex: 0 0 auto;
+  margin: 10px;
+  position: relative;
+  width: 300px;
+  height: auto;
+}
+
+.content-div img{
+  width: 300px;
+  height: 250px;
+}
+
+.content-div-text{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  left: 0;
+  width: 100%;
+  color: black;
+  padding-top: 15px;
+}
+
+.content-div-text p{
+  font-weight: bold;
+}
+
+/*********************************************Home Page *******************************************/
+
+/*********************************************Movies Page *******************************************/
+.movie-section-div{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.movie-content-div{
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.movie-content-div img{
+  width: 300px;
+  height: 250px;
+}
+
+.movie-content-div-text{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  left: 0;
+  width: auto;
+  padding-top: 15px;
+}
+
+.movie-content-div-text p{
+  font-weight: bold;
+}
+/*********************************************Movies Page *******************************************/
+
+/*********************************************SignUp Page *******************************************/
+
+.signup-main-div{
+  border: 2px solid black;
+  width: 30%;
+  height: 450px;
+  align-self: center;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.signup-main-div h1{
+  text-align: center;
+}
+
+.link-div{
+  text-align: center;
+  margin-top: 20px;
+}
+/*********************************************SignUp Page *******************************************/
+
+/*********************************************Login Page *******************************************/
+
+.login-main-div{
+  border: 2px solid black;
+  width: 30%;
+  height: 360px;
+  align-self: center;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.login-main-div h1{
+  text-align: center;
+}
+
+/*********************************************Login Page *******************************************/
+
+/*********************************************ID Page *******************************************/
+.id-sub-div{
+  width: 80vw;
+  height: 43vw;
+  margin-top: 100px;
+  margin-left: 10vw;
+  display: flex;
+}
+
+.sub-right{
+  margin-left: 150px;
+  width: 40vw;
+  text-align: center;
+  margin-top: 100px;
+}
+/*********************************************ID Page *******************************************/
